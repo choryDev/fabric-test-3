@@ -4,7 +4,7 @@ import { fabric } from "fabric";
 const App = () => {
   const [canvas, setCanvas] = useState<any>();
   const initCanvas = () => {
-    const canvas = new fabric.Canvas("canvas", {
+    const canvas: any = new fabric.Canvas("canvas", {
       height: 800,
       width: 800,
       backgroundColor: "#eee"
